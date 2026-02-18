@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coinsexport.com | Step 3</title>
+    <title>Coinsexport.com | Premium Digital Asset</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body, html { height: 100%; font-family: 'Inter', 'Segoe UI', sans-serif; background-color: #050a10; overflow: hidden; }
+        body, html { height: 100%; font-family: 'Inter', -apple-system, sans-serif; background-color: #050a10; overflow: hidden; }
 
-        /* پس‌زمینه تایید شده */
         .bg-img {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background-image: url('https://github.com/saminkhanaki/Coinsexport/blob/main/crypto.jpg?raw=true');
@@ -17,39 +16,46 @@
 
         .overlay {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
-            background: rgba(5, 12, 24, 0.8); /* کمی تیره‌تر برای تمرکز روی کارت */
+            background: rgba(5, 12, 24, 0.75);
             z-index: 1;
         }
 
         .container { position: relative; height: 100vh; display: flex; align-items: center; justify-content: center; z-index: 2; }
 
-        /* اضافه شدن کارت مرکزی */
         .crypto-card { 
             background: rgba(13, 20, 33, 0.9);
-            backdrop-filter: blur(10px); /* حالت شیشه‌ای */
-            padding: 50px 40px;
-            border-radius: 20px;
-            text-align: center;
+            backdrop-filter: blur(12px);
+            padding: 50px 40px; border-radius: 20px; text-align: center;
             max-width: 480px; width: 92%;
             border: 1px solid rgba(0, 209, 255, 0.3);
             box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
         }
 
-        .tag { 
-            color: #00d1ff; font-weight: bold; font-size: 0.75em;
-            text-transform: uppercase; letter-spacing: 4px; margin-bottom: 25px;
-            display: block;
-        }
-
+        .tag { color: #00d1ff; font-weight: bold; font-size: 0.75em; text-transform: uppercase; letter-spacing: 4px; margin-bottom: 25px; display: block; }
         h1 { font-size: 2.5em; color: #ffffff; margin-bottom: 15px; letter-spacing: -1px; }
         .highlight { color: #00d1ff; text-shadow: 0 0 15px rgba(0, 209, 255, 0.4); }
+        p { color: #94a3b8; margin-bottom: 35px; line-height: 1.7; font-size: 1.1em; }
 
-        p { color: #94a3b8; margin-bottom: 20px; line-height: 1.7; font-size: 1.1em; }
-
-        .footer-line { 
-            font-size: 0.8em; color: #58a6ff; opacity: 0.8; 
-            margin-top: 20px; letter-spacing: 1px;
+        /* استایل دکمه‌ها */
+        .btn { 
+            display: block; padding: 18px; margin: 15px 0; border-radius: 12px;
+            text-decoration: none; font-weight: bold; font-size: 1.1em;
+            transition: all 0.3s ease; text-transform: uppercase; letter-spacing: 1px;
         }
+
+        /* دکمه آبی درخشان Afternic */
+        .btn-afternic { 
+            background: #1f6feb; color: white; border: 1px solid #388bfd;
+        }
+        .btn-afternic:hover { background: #388bfd; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(31, 111, 235, 0.3); }
+
+        /* دکمه نقره‌ای Sedo */
+        .btn-sedo { 
+            background: #e6edf3; color: #0d1117; border: 1px solid #ffffff;
+        }
+        .btn-sedo:hover { background: #ffffff; transform: translateY(-3px); box-shadow: 0 10px 20px rgba(255, 255, 255, 0.2); }
+
+        .footer-line { font-size: 0.8em; color: #58a6ff; opacity: 0.8; margin-top: 25px; letter-spacing: 1px; }
     </style>
 </head>
 <body>
@@ -61,6 +67,9 @@
             <span class="tag">Digital Asset Opportunity</span>
             <h1>Coins<span class="highlight">export</span>.com</h1>
             <p>The premium domain for global cryptocurrency exchange, digital finance, and export-scale blockchain platforms.</p>
+            
+            <a href="https://www.afternic.com/domain/coinsexport.com" class="btn btn-afternic">PURCHASE VIA AFTERNIC</a>
+            <a href="https://sedo.com/search/details/?domain=coinsexport.com" class="btn btn-sedo">PURCHASE VIA SEDO</a>
             
             <div class="footer-line">✓ SECURE TRANSFER • ✓ ESCROW PROTECTED</div>
         </div>
