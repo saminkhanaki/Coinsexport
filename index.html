@@ -6,8 +6,16 @@
     <title>Coinsexport.com | Premium Digital Asset</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        /* تغییر برای فعال شدن اسکرول */
-        body, html { min-height: 100%; font-family: 'Inter', -apple-system, sans-serif; background-color: #050a10; overflow-x: hidden; overflow-y: auto; }
+        
+        /* اصلاح اول: اجازه اسکرول به کل صفحه */
+        body, html { 
+            min-height: 100%; 
+            font-family: 'Inter', -apple-system, sans-serif; 
+            background-color: #050a10; 
+            overflow-x: hidden; 
+            overflow-y: auto; 
+            scroll-behavior: smooth;
+        }
 
         .bg-img {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
@@ -21,13 +29,22 @@
             z-index: 1;
         }
 
-        .container { position: relative; min-height: 100vh; display: flex; align-items: center; justify-content: center; z-index: 2; padding: 20px; }
+        /* اصلاح دوم: تغییر height به min-height */
+        .container { 
+            position: relative; 
+            min-height: 100vh; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            z-index: 2; 
+            padding: 40px 20px; 
+        }
 
         .crypto-card { 
-            background: rgba(13, 20, 33, 0.9);
+            background: rgba(13, 20, 33, 0.92);
             backdrop-filter: blur(12px);
             padding: 50px 40px; border-radius: 20px; text-align: center;
-            max-width: 480px; width: 92%;
+            max-width: 480px; width: 100%;
             border: 1px solid rgba(0, 209, 255, 0.3);
             box-shadow: 0 25px 60px rgba(0, 0, 0, 0.8);
         }
@@ -52,17 +69,18 @@
 
         .footer-line { font-size: 0.8em; color: #58a6ff; opacity: 0.8; margin-top: 25px; letter-spacing: 1px; }
 
-        /* استایل بخش مقاله */
+        /* بخش مقاله */
         .article-section {
-            position: relative; z-index: 2;
+            position: relative; 
+            z-index: 2;
             background: #0d1421;
             padding: 80px 20px;
-            border-top: 1px solid rgba(0, 209, 255, 0.2);
+            border-top: 2px solid #00d1ff;
         }
         .article-content { max-width: 800px; margin: 0 auto; color: #94a3b8; line-height: 1.8; }
-        .article-content h2 { color: #ffffff; font-size: 2em; margin-bottom: 25px; }
+        .article-content h2 { color: #ffffff; font-size: 2.2em; margin-bottom: 25px; }
         .article-content h2 span { color: #00d1ff; }
-        .article-content p { margin-bottom: 20px; font-size: 1.1em; }
+        .article-content p { margin-bottom: 25px; font-size: 1.15em; }
         .keyword-highlight { color: #00d1ff; font-weight: 600; }
     </style>
 </head>
@@ -75,3 +93,21 @@
             <span class="tag">Digital Asset Opportunity</span>
             <h1>Coins<span class="highlight">export</span>.com</h1>
             <p>The premium domain for global cryptocurrency exchange, digital finance, and export-scale blockchain platforms.</p>
+            
+            <a href="https://www.afternic.com/domain/coinsexport.com" class="btn btn-afternic">PURCHASE VIA AFTERNIC</a>
+            <a href="https://sedo.com/search/details/?domain=coinsexport.com" class="btn btn-sedo">PURCHASE VIA SEDO</a>
+            
+            <div class="footer-line">✓ SECURE TRANSFER • ✓ ESCROW PROTECTED</div>
+        </div>
+    </div>
+
+    <section class="article-section">
+        <div class="article-content">
+            <h2>The Future of Global <span>Cryptocurrency</span> Trade</h2>
+            <p>In the rapidly expanding landscape of decentralized finance, <strong>Coins Export</strong> serves as a strategic digital hub for the next generation of <span class="keyword-highlight">Cryptocurrency</span> enthusiasts and institutional investors. As the global market shifts toward <span class="keyword-highlight">Blockchain</span>-based solutions, having a high-impact domain is essential for building a trustworthy <span class="keyword-highlight">Exchange</span> platform that connects diverse markets.</p>
+            
+            <p>Our mission is to simplify the complexities of <span class="keyword-highlight">Digital Assets</span> and facilitate a seamless <span class="keyword-highlight">Trading</span> experience across borders. Coins Export is perfectly positioned for ventures focusing on crypto-liquidity, international payment gateways, or secure asset management. By integrating advanced security protocols with user-centric design, we aim to redefine how the world interacts with the evolving <span class="keyword-highlight">Crypto</span> economy.</p>
+        </div>
+    </section>
+</body>
+</html>
